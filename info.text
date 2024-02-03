@@ -1,0 +1,2 @@
+Set your username: git config --global user.name "minskolecourse"
+Set your email address: git config --global user.email "minskolecourse@gmail.com"
