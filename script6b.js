@@ -32,7 +32,6 @@ for(let i = 50 ; i >= 5 ; i = i - 5){
 
 // program 6 
 // break statement with for loop
-
 for(let i = 1 ; i <= 5 ; i++){ // 2 // 3
     if(i == 3){
         break
