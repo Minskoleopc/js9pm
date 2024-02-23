@@ -61,5 +61,11 @@ console.log(w2)
 console.log(typeof w2)
 
 // lang  , framework , focus , exp
+let n = [22,33,44]
+n.reverse()
+console.log(n)
 
-
+let a = [22,33,44]
+let b = [55,66,77]
+let c = a.concat(b)
+console.log(c)
