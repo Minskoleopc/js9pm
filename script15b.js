@@ -47,7 +47,6 @@ console.log(s9)
 console.log(s10)
 
 // program 4
-
 let city6 = "wardha"
 // 0   1   2  3  4   5
 // w   a   r  d  h   a
@@ -68,6 +67,16 @@ console.log(city7.length)
 console.log(city7.trimStart().length)
 console.log(city7.trimEnd().length)
 console.log(city7.trim().length)
+
+
+
+
+
+
+
+
+
+
 
 
 
