@@ -19,9 +19,6 @@ let inputText = document.querySelector('input')
 //    inputText.value= ""
 // })
 
-
-
-
-
+       
 
 
