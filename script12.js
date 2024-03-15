@@ -100,6 +100,7 @@ let students = [
         age:32
     },
     {
+        
         firstName:"ninad",
         lastName:"dani",
         age:31

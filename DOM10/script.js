@@ -45,14 +45,12 @@ ulList.addEventListener('click',function(event){
     //console.log(event.target.className)
 
     if(event.target.tagName == "BUTTON"){
-
         if(event.target.className === "remove"){
             let li = event.target.parentElement
             let ulList = li.parentElement
             ulList.removeChild(li)
         }
         else if(event.target.className === "up"){
-
             let li = event.target.parentElement
             let ulList  = li.parentElement
             let prev = li.previousElementSibling
@@ -61,7 +59,6 @@ ulList.addEventListener('click',function(event){
             }
 
         }
-
         else if(event.target.className === "down"){
 
             let li = event.target.parentElement
@@ -70,12 +67,7 @@ ulList.addEventListener('click',function(event){
             if(next){
                 ulList.insertBefore(next,li)
             }
-
-
         }
-
-
-
 
     }
 

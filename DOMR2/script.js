@@ -13,8 +13,6 @@ console.log(byClass)
 // tagName[attribute="value"]
 let byAttribute = document.querySelector('h1[id="one"]')
 console.log(byAttribute)
-
-
 byAttribute.addEventListener('click',function(){
     byAttribute.textContent = "bye"
     byAttribute.style.color = "blue"

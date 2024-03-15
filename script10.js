@@ -75,7 +75,6 @@ for(let i = 0 ; i < numbersA.length ; i++){
     //       33   +      33   ------> // 66 
 }
 console.log(total)
-
 let e7 = numbersA.reduce(function(acc,el,index,arr){
     return acc + el
 },5)

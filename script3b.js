@@ -87,6 +87,7 @@ else {
 }
 
 // program 6
+
 let x1 = 10
 let x2 = 50 
 let x3 = 300
