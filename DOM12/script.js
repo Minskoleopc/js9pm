@@ -1,5 +1,3 @@
-
-
 let buttonA = document.querySelector('#one')
 let input = document.querySelector('input')
 let ulList = document.querySelector('ul')
