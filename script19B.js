@@ -88,3 +88,5 @@ for(let [k,v] of mapD.entries()){  //["MH","Nagpur"]
     console.log(k,v)
 }
 
+
+console.log(mapC)
