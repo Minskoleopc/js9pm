@@ -88,7 +88,7 @@ names3.forEach(function(el){
 })
 
 
-// let students = new Set([
+// let students = new qSet([
 //     {firstName:"sarika",lastName:"pansare"},
 //     {firstName:"poorva",lastName:"vyas"}
 // ]) 

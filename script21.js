@@ -46,22 +46,22 @@ let amol = {
 
 // program 3
 // Es6 class with constuctor
-class Person {
-    constructor(fn,ln,age,rollNo){
-        this.firstName = fn
-        this.lastName = ln
-        this.rollNo =rollNo 
-        this.age = age
+// class Person {
+//     constructor(fn,ln,age,rollNo){
+//         this.firstName = fn
+//         this.lastName = ln
+//         this.rollNo =rollNo 
+//         this.age = age
 
-    }
-    displayName(){
-        console.log(this.firstName + this.lastName)
-    }
-}
-let amolC = new Person("amolR","RaoR",35,6)
-let chinmayC = new Person("chinmayC","DeshpandeD",32,34)
-chinmayC.city = "pune"
-console.log(chinmayC)
+//     }
+//     displayName(){
+//         console.log(this.firstName + this.lastName)
+//     }
+// }
+// let amolC = new Person("amolR","RaoR",35,6)
+// let chinmayC = new Person("chinmayC","DeshpandeD",32,34)
+// chinmayC.city = "pune"
+// console.log(chinmayC)
 
 
 

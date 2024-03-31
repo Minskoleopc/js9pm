@@ -101,7 +101,6 @@ class PersonE {
 
 }
 
-
 let ninad = new PersonE()
 ninad.fn = "ninad"
 ninad.ln = "dani"
