@@ -7,9 +7,7 @@ addusers.addEventListener('click', function () {
         })
         .then(function (response) {
             console.log(response.data)
-
             response.data.forEach(el => {
-
                 document.write(`<h1>${el.first_name}</h1>`)
                 document.write(`<h1>${el.last_name}</h1>`)
                 document.write(`<p>${el.email}</p>`)
