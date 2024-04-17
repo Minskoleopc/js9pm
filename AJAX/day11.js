@@ -41,9 +41,6 @@ function renderHtml(element) {
 
 
 // async await
-
-
-
 async function getUsersInfo(pageNumber){
    let id =  await getUsers(pageNumber)
    let user  = await getID(id)

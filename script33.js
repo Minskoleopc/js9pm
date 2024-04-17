@@ -44,18 +44,18 @@ console.log(r1)
 
 // program 3
 // closures
-// function additionR(){
-//     let r = 10 
-//     let s = 5
-//     return function(){
-//         console.log(s+r)
-//     }
+function additionR(){
+    let r = 10 
+    let s = 5
+    return function(){
+        console.log(s+r)
+    }
+}
+let a = additionR()
+console.log(a)
+// let a  = function(){
+//     console.log(s+r)
 // }
-// let a = additionR()
-// console.log(a)
-// // let a  = function(){
-// //     console.log(s+r)
-// // }
 
 // a()
 
@@ -71,24 +71,22 @@ console.log(e)
 
 // function expression 
 
-let additionF2 = function(x,y){
-    return x + y
-}
-let e2 = additionF2(12,3)
-console.log(e2)
+// let additionF2 = function(x,y){
+//     return x + y
+// }
+// let e2 = additionF2(12,3)
+// console.log(e2)
 
 // arrow function 
-
-
 // let additionF3 = (x,y)=>{
 //     return x + y
 // }
 // let e3 = additionF2(12,3)
 // console.log(e3)
 
-let additionF3 = (x,y)=> x + y
-let e3 = additionF2(12,3)
-console.log(e3)
+// let additionF3 = (x,y)=> x + y
+// let e3 = additionF2(12,3)
+// console.log(e3)
 
 
 

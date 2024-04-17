@@ -57,7 +57,7 @@ function getInfo() {
 
     }, 3000)
 }
-getInfo()
+//getInfo()
 
 // promises 
 
